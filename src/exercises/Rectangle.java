@@ -2,7 +2,6 @@ package exercises;
 import java.util.Scanner;
 public class Rectangle {
 
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("What is the length of your rectangle please?:");
@@ -11,9 +10,5 @@ public class Rectangle {
         double w = input.nextDouble();
         double area = l*w;
         System.out.println("The area of your rectangle is " + area);
-
-
-
-
     }
 }
