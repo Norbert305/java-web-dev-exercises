@@ -20,10 +20,10 @@ public class WordSearch {
 
             switch(decision){
                 case "Alice":
-                    System.out.println("You guessed correctly!!! the name was "+name);
+                    System.out.println("You guessed correctly!!! the name was Alice on index "+name.indexOf(name));
                     break;
                 case "alice":
-                    System.out.println("You guessed correctly!! the name was "+name);
+                    System.out.println("You guessed correctly!! the name was alice on index"+name.indexOf(name));
                     break;
                 default :
                     System.out.println("You guessed wrong!!! please enter again ");
