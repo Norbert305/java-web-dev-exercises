@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class CarDistance {
     //25 miles = 1 gallon: Please use this logic to receive an appropriate answer
     //Goal is to calculate how many miles per gallon.
+    //Confirmed this works test 1
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("How many miles have you driven today total?:");
