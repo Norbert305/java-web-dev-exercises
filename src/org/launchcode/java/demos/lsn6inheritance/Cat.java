@@ -43,6 +43,7 @@ public class Cat {
         return family;
     }
 
+
     /**** Instance Methods ****/
 
     // A cat is rested and hungry after it sleeps
